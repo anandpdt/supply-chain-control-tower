@@ -1,0 +1,5 @@
+model,mae,wape
+Croston-SBA,8.7921,120.44
+Zero baseline,7.3,100.0
+Naive average,10.1767,139.41
+Recent 14-day average,7.737,105.99

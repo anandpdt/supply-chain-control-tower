@@ -1,0 +1,48 @@
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Credentials and environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+.streamlit/secrets.toml
+**/secrets.toml
+
+# Airflow runtime files
+airflow/logs/
+airflow/airflow.db
+airflow/airflow.cfg
+airflow/standalone_admin_password.txt
+
+# Local datasets and database backups
+data/
+*.sqlite
+*.sqlite3
+*.backup
+*.dump
+
+# Temporary files
+*.log
+*.tmp
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Airflow configuration
+airflow/config/
+
+# Backup files
+*.py.bak
+
+# Local Docker Compose configuration
+airflow/docker-compose.yaml
