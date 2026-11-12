@@ -431,6 +431,30 @@ The following results came from the developer's evaluated local environment, not
 - Transportation constraints, supplier availability checks, and service-level optimization.
 - Secure secret management, least-privilege database access, CI testing, and optional deployment.
 
+  
+---
+
+## NEXVIA Dashboard & Pipeline Demonstration
+
+### 1. Supply Chain Dashboard
+![NEXVIA Dashboard](docs/screenshots/01_dashboard.png)
+
+### 2. Demand Forecasting
+![Demand Forecasting](docs/screenshots/02_forecasting.png)
+
+### 3. Risk-Aware Replenishment
+![Risk-Aware Replenishment](docs/screenshots/03_replenishment.png)
+
+### 4. Apache Airflow Pipelines
+![Airflow Pipeline Overview](docs/screenshots/04_airflow.png)
+
+![Airflow Task Execution](docs/screenshots/05_airflow.png)
+
+> Note: Operational inventory, supplier delays, and
+> replenishment scenarios are simulated.
+> Historical DataCo data is used for historical analysis.
+
+
 ## 16. Project purpose and author
 
 NEXVIA is an academic and portfolio demonstration of SQL modeling, Python data analytics, workflow orchestration, demand forecasting, inventory risk analysis, and interactive business intelligence.
